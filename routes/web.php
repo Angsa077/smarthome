@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Route;
 // Lamps
 Route::get('/', [LampController::class, 'index'])->name('lamps.index');
 
-// Update lamps
+// Update lamp
 Route::post('/lamps/{id}', [LampController::class, 'updateLamp'])->name('lamps.update');
 
 // histories
